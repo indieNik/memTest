@@ -4,11 +4,13 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { MemComponent } from './mem/mem.component';
+import { LeakyComponent } from './leaky/leaky.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    MemComponent
+    MemComponent,
+    LeakyComponent
   ],
   imports: [
     BrowserModule,
